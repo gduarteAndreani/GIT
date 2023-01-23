@@ -1,0 +1,11 @@
+1
+git stash
+git checkout master
+git add .
+git commit -m "archivo borrado"
+git push origin master
+git chekout branch custom-navbar
+git stash apply
+2
+git checkout master
+git merge front-react
